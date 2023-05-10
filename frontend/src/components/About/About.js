@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import './About.css';
 
+
+
 function About() {
     const [information, setInformation] = useState({});
     useEffect(() => {
-        axios.get('/backend/json/about.json')
+        axios.get("/backend/json/about.json")
             .then(
                 res => setInformation(res.data[0])
 
