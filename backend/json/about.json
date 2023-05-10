@@ -1,6 +1,7 @@
 [{
     "name":"Mayra del Valle Gonzalez",
     "photo":"https://www.flaticon.es/icono-gratis/mujer-de-negocios_1993400?term=avatar+mujer&page=1&position=23&origin=search&related_id=1993400",
+    "rol":"Desarrolladora FullStack",
     "skills":[
         "Javascript",
         "ReactJS",

@@ -10,7 +10,7 @@ const port = process.env.PORT || 8080; //Que es cuche PORT y si esta vacia, escu
 
 // rutas
 app.get('/', (req,res) => {
-    res.send('Hola,respondo')
+    res.send('Hola,respondo desde el back')
 });
 
 app.get('/about', (req,res) => {
