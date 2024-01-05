@@ -1,14 +1,17 @@
 import logo from '../src/assets/gifLogoN.gif';
 import './App.css';
 
+
 function App() {
   return (
-    <div className="App">
+   
+    <div className="App">  
+    
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <section class="triangle"></section>
+       
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Mayra del Valle González
         </p>
         <a
           className="App-link"
@@ -16,9 +19,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          Full-Stack Developer
+        </a> 
+     
       </header>
+     
     </div>
   );
 }
