@@ -4,3 +4,8 @@
     background-color:gray;
     color:aliceblue;
 }
+
+.lista{
+    height: max-content;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
