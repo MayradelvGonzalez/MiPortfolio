@@ -38,6 +38,7 @@
 
 .App-link {
   color: var(--texto);
+  text-decoration: none;
 }
 
 /* @keyframes App-logo-spin {

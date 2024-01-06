@@ -1,4 +1,4 @@
-import logo from '../src/assets/gifLogoN.gif';
+import LogoB from './assets/LogoB.jpg';
 import './App.css';
 
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">  
     
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+       
        
         <p>
           Mayra del Valle González
