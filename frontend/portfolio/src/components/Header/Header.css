@@ -3,9 +3,28 @@
     width: 100%;
     background-color:gray;
     color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 10px;
 }
 
-.lista{
+.lista {
     height: max-content;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    align-items: center;
+    background-color:red;
+    width:fit-content;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+  
+}
+
+.lista li{
+    padding: 10px;
+    
 }
