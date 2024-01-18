@@ -2,7 +2,8 @@
     height: fit-content;
     background-color:gray;
     color:aliceblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type:none;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -14,10 +15,10 @@
     align-items:center
 }
 .logoName img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
-    border:0.1em solid gray;
+    /* border:0.1em solid gray; */
 }
 
 .lista {
