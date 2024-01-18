@@ -1,10 +1,10 @@
 import './Header.css';
-import LogoB from '../../assets/LogoB.jpg';
+import LogoNsf from '../../assets/LogoNsf.png';
 function Header() {
     return (
         <div id="header">
            
-               <div className='logoName'> <img src={LogoB} className="App-logo" alt="logo" /><h2 className="contacto">Hola soy el header de contacto</h2></div>
+               <div className='logoName'> <img src={LogoNsf} className="App-logo" alt="logo" /><h2 className="contacto">Hola soy el header de contacto</h2></div>
                <div> <ul className="lista">
                     <li>Telefono</li>
                     <li>Linkedin</li>
