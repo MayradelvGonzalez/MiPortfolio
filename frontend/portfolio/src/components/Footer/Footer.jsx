@@ -1,7 +1,8 @@
 import './Footer.css';
-function Footer(){
-    return <div className="footer"><h3>Creado por Mayra con 💖</h3></div>
-    
+function Footer() {
+    return (
+        <div className="footer" role='contentinfo'><p>Creado por Mayra con 💖</p></div>)
+
 }
 
 export default Footer;

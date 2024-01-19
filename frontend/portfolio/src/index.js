@@ -6,6 +6,11 @@ import Header from './components/Header/Header';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer/Footer'
 
+if (process.env.NODE_ENV !== 'production') {
+  const axe = require('@axe-core/react');
+  axe(React, ReactDOM, 1000);
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
