@@ -27,18 +27,20 @@
 .logoName{
     display: flex;
     align-items:center;
+    justify-content: center;
  
+
 }
 .logoName img{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     object-fit: contain;
    
 }
-.App-logo{
-    width: 50px;
-    height: 50px;
-}
+/* .App-logo{
+    width: 70px;
+    height: 70px;
+} */
 .lista {
     height: max-content;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,3 +83,14 @@ li a{
     transform-origin: left;
     transform: scaleX(1);
   }
+
+
+  /* -------------------------------------------------- */
+@media (max-width: 600px){
+    #header{
+        height: fit-content;
+
+  flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
