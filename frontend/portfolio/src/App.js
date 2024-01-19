@@ -1,6 +1,5 @@
-import LogoB from './assets/LogoB.jpg';
+// import LogoB from './assets/LogoB.jpg';
 import './App.css';
-
 
 function App() {
   return (
@@ -10,9 +9,9 @@ function App() {
       <header className="App-header">
        
        
-        <p>
+        <h2>
           Mayra del Valle González
-        </p>
+        </h2>
         <a
           className="App-link"
           href="https://reactjs.org"
