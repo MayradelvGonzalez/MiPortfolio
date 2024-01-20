@@ -41,13 +41,26 @@
   color: var(--texto3);
 }
 
-.App-link {
+/* .App-link {
   color: var(--titulo);
   text-decoration: none;
 
+} */
+#panel2-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--titulo);
+  background-color:var(--fondo);
+  
 }
-.App-header a{
-  color:var(--titulo);
+#panel2-header h3{
+text-align: center;
+width: 100%;
+}
+.panelInfo{
+  color: var(--texto3);
+  background-color:var(--fondo);
   
 }
 /* @keyframes App-logo-spin {
