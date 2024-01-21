@@ -64,9 +64,12 @@
 
 #panel1-header {
   color: var(--texto3);
-  /* background-color: var(--fondo); */
-  background-color: #63ea92;
-  display: flex;
+  background-color: var(--fondo);
+  padding-left: 50%;
+  padding-right: 50%;
+}
+#panel1-header h3{
+width: max-content;
 }
 
 
