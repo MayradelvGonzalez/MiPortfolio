@@ -39,6 +39,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--texto3);
+  
 }
 
 /* .App-link {
@@ -57,27 +58,17 @@
 .panelInfo {
   color: var(--texto3);
   background-color: var(--fondo);
+  display: flex;
+
 }
 
 #panel1-header {
   color: var(--texto3);
-  background-color: var(--fondo);
-}
-.AccordionSummary{
+  /* background-color: var(--fondo); */
+  background-color: #63ea92;
   display: flex;
 }
-.AccordionSummary h3 {
-  text-align: center;
-  margin: 0;
-}
-Accordion{
-  display: flex;
 
-}
-.infoTitulo{
-align-content:center;
-text-align: center;
-}
 
 /* @keyframes App-logo-spin {
   from {
