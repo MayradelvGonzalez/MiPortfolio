@@ -70,8 +70,13 @@
 }
 #panel1-header h3{
 width: max-content;
+padding: 2em;
 }
-
+.boton{
+  color:var(--fondo);
+ background-color:var(--fondo2);
+ border-radius:1em;
+}
 
 /* @keyframes App-logo-spin {
   from {

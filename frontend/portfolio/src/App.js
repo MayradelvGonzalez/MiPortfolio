@@ -20,9 +20,9 @@ function App() {
 
     <div className="App" role='main'>
       <div className="App-header">
-        <h1>
+        <h2>
           Mayra del Valle González
-        </h1>
+        </h2>
         <div className='InfoTitulo'>
           <Accordion
             expanded={expandedPanel === 'panel1'}
@@ -30,16 +30,16 @@ function App() {
             aria-labelledby="panel1-header"
             role="region"
             aria-controls="panel1-content"
-           
+  
           >
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon tabIndex={0} />}
+              expandIcon={<ExpandMoreIcon tabIndex={expandedPanel === 'panel1' ? 0 : -1} className='boton'/>}
               aria-expanded={expandedPanel === 'panel1'}
               id="panel1-header"
             >
               <h3>Full-Stack Developer</h3>
             </AccordionSummary>
-            <AccordionDetails className='panelInfo' id="panel1-content" aria-describedby="panel1-header">
+            <AccordionDetails className='panelInfo' id="panel1-content" aria-describedby="panel1-header"  aria-hidden={expandedPanel !== 'panel1'} tabIndex={expandedPanel === 'panel1' ? 0 : -1}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
               malesuada lacus ex, sit amet blandit leo lobortis eget.
             </AccordionDetails>
